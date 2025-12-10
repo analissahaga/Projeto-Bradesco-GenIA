@@ -3,11 +3,10 @@
 > [!TIP]
 > **Prompt usado para esta etapa:**
 > 
-> Me ajude a documentar um agente de IA financeiro. O caso de uso é [descreva seu caso de uso]. 
-> Preciso definir: problema que resolve, público-alvo, personalidade do agente, tom de voz 
-> e estratégias anti-alucinação. Use o template abaixo como base:
-> 
-> [cole o template 01-documentacao-agente.md]
+> Crie a documentação de um agente chamado "Edu", um educador financeiro que ensina conceitos de finanças pessoais de forma simples. Ele não recomenda investimentos, apenas educa. Tom informal e didático. Preencha o template abaixo.
+>
+> [cole ou anexe o template `01-documentacao-agente.md` pra contexto]
+
 
 ## Caso de Uso
 

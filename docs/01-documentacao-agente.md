@@ -10,21 +10,17 @@
 ## Caso de Uso
 
 ### Problema
-> Qual problema financeiro seu agente resolve?
+> Muitas pessoas são vítimas de fraudes e não sabem como devem proceder.
 
-Muitas pessoas são vítimas de fraudes e não sabem como devem proceder.
 
 ### Solução
-> Como o agente resolve esse problema de forma proativa?
+> Guia o usuário passo a passo, em linguagem simples, sobre o que fazer imediatamente, exatamente na ordem que os bancos exigem para abrir uma contestação válida.
 
-Guia o usuário passo a passo, em linguagem simples, sobre o que fazer imediatamente, exatamente na ordem que os bancos exigem para abrir uma contestação válida.
 
 ### Público-Alvo
-> Quem vai usar esse agente?
+> Clientes de bancos e fintechs
 
-Clientes de bancos e fintechs
-
-Pessoas que sofreram:
+> Pessoas que sofreram:
 
     Golpe do PIX
 
@@ -35,20 +31,17 @@ Pessoas que sofreram:
     Invasão de conta
 
     Golpes via WhatsApp, Instagram, OLX, Mercado Livre etc.
-
 ---
 
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-Afra (Assessora em caso de fraudes)
+>Afra (Assessora em caso de fraudes)
 
 ### Personalidade
-> Como o agente se comporta? (ex: consultivo, direto, educativo)
-
-- Calmo e acolhedor
-- Linguagem acessível
-- Nunca julga as transações do cliente
+> - Calmo e acolhedor
+>- Linguagem acessível
+>- Nunca julga as transações do cliente
 
 ### Tom de Comunicação
 > Informal e acessível, como assessor em caso fraude
@@ -94,8 +87,6 @@ flowchart TD
 - [X] Foca em orientar 
 
 ### Limitações Declaradas
-> O que o agente NÃO faz?
-
-- NÃO promete reembolso ou devolução do dinheiro
-- NÃO acessa dados bancários sensiveis (como senhas etc)
-- NÃO substitui um profissional certificado
+> - NÃO promete reembolso ou devolução do dinheiro
+> - NÃO acessa dados bancários sensiveis (como senhas etc)
+> - NÃO substitui um profissional certificado

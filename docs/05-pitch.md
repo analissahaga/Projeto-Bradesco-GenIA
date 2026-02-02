@@ -45,6 +45,6 @@
 
 ## Link do Vídeo
 
-> Cole aqui o link do seu pitch (YouTube, Loom, Google Drive, etc.)
+> 
 
-[Link do vídeo]
+[https://drive.google.com/file/d/1S0V911K6AA081YH4aSABQ8emZ9XJVGW6/view?usp=sharing****]

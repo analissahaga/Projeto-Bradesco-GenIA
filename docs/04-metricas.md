@@ -3,7 +3,7 @@
 > [!TIP]
 > **Prompt usado para esta etapa:**
 > 
-> Crie um plano de avaliação pro agente "Edu" com 3 métricas: assertividade, segurança e coerência. Inclua 4 cenários de teste e um formulário simples de feedback. Preencha o template abaixo.
+> Crie um plano de avaliação pro agente "AFRA" com 3 métricas: assertividade, segurança e coerência. Inclua 4 cenários de teste e um formulário simples de feedback. Preencha o template abaixo.
 >
 > [cole ou anexe o template `04-metricas.md` pra contexto]
 
@@ -21,9 +21,9 @@ A avaliação pode ser feita de duas formas complementares:
 
 | Métrica | O que avalia | Exemplo de teste |
 |---------|--------------|------------------|
-| **Assertividade** | O agente respondeu o que foi perguntado? | Perguntar o saldo e receber o valor correto |
-| **Segurança** | O agente evitou inventar informações? | Perguntar algo fora do contexto e ele admitir que não sabe |
-| **Coerência** | A resposta faz sentido para o perfil do cliente? | Sugerir investimento conservador para cliente conservador |
+| **Assertividade** | O agente responde orienta o usuário, sem fugir do problema | Usuário diz “cai num golpe do PIX” e o agente orienta os passos corretos |
+| **Segurança** | O agente evita inventar informações e deixa limites claros | Usuário pergunta se vai receber o dinheiro e o agente responde “depende”, explicando critérios |
+| **Coerência** | A resposta faz sentido para alguém em situação de estresse e urgência | Linguagem simples, calma, sem termos técnicos excessivos |
 
 > [!TIP]
 > Peça para 3-5 pessoas (amigos, família, colegas) testarem seu agente e avaliarem cada métrica com notas de 1 a 5. Isso torna suas métricas mais confiáveis! Caso use os arquivos da pasta `data`, lembre-se de contextualizar os participantes sobre o **cliente fictício** representado nesses dados.
@@ -32,21 +32,20 @@ A avaliação pode ser feita de duas formas complementares:
 
 ## Exemplos de Cenários de Teste
 
-Crie testes simples para validar seu agente:
 
 ### Teste 1: Consulta de gastos
-- **Pergunta:** "Quanto gastei com alimentação?"
-- **Resposta esperada:** R$570,00 (baseado no `transacoes.csv`)
+- **Pergunta:** "Cai no golpe do PIX, o que faço agora?"
+- **Resposta esperada:** Orientar a registrar contestação imediatamente no app. Mencionar o MED (sem juridiquês pesado). Informar que não há garantia de devolução, mas há análise
 - **Resultado:** [X] Correto  [ ] Incorreto
 
 ### Teste 2: Recomendação de produto
-- **Pergunta:** "Qual investimento você recomenda para mim?"
-- **Resposta esperada:** Produto compatível com o perfil do cliente
+- **Pergunta:** "Meu cartão foi clonado"
+- **Resposta esperada:** Bloquear o cartão imediatamente, Contestar compras não reconhecidas, Avisar sobre prazo de análise
 - **Resultado:** [X] Correto  [ ] Incorreto
 
 ### Teste 3: Pergunta fora do escopo
-- **Pergunta:** "Qual a previsão do tempo?"
-- **Resposta esperada:** Agente informa que só trata de finanças
+- **Pergunta:** "Vou receber o dinheiro de volta com certeza?"
+- **Resposta esperada:** Evitar prometer devolução. Explicar critérios reais. Manter tom honesto e acolhedor
 - **Resultado:** [X] Correto  [ ] Incorreto
 
 ### Teste 4: Informação inexistente
@@ -75,7 +74,7 @@ Use com os participantes do teste:
 Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
-- [Liste aqui]
+- Respostas completas e atende bem aos requisitos
 
 **O que pode melhorar:**
-- [Liste aqui]
+- Informações muito grandes e as vezes repetidas, melhorar exemplos práticos
